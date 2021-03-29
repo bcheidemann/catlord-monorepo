@@ -1,3 +1,4 @@
+import { GlobalStyles } from '@catlord/styles';
 import React from 'react';
 import { Screen, ScreenProps } from './screen';
 
@@ -9,5 +10,5 @@ export default {
 export const primary = () => {
   const props: ScreenProps = {};
 
-  return <Screen {...props}>Contents</Screen>;
+  return <GlobalStyles><Screen {...props}>Contents</Screen></GlobalStyles>;
 };

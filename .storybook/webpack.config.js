@@ -7,6 +7,21 @@
 module.exports = async ({ config, mode }) => {
   // Make whatever fine-grained changes you need
 
+  if (!config.module) config.modules = {};
+  if (!config.module.rules) config.modules.rules = [];
+
+  config.module.rules.push({
+    test: /\.s[ac]ss$/i,
+    use: [
+      // Creates `style` nodes from JS strings
+      "style-loader",
+      // Translates CSS into CommonJS
+      "css-loader",
+      // Compiles Sass to CSS
+      "sass-loader",
+    ],
+  });
+
   // Return the altered config
   return config;
 };
