@@ -3,5 +3,6 @@ module.exports = {
     '<rootDir>/apps/catlord-website',
     '<rootDir>/apps/api',
     '<rootDir>/libs/components',
+    '<rootDir>/libs/styles',
   ],
 };
