@@ -1,14 +1,17 @@
 import React from 'react';
 
-import './screen.module.scss';
+import './screen.scss';
+import { Styles } from './screen.styles';
 
 /* eslint-disable-next-line */
-export interface ScreenProps {}
+export interface ScreenProps {
+  children?: React.ReactNode;
+}
 
 export function Screen(props: ScreenProps) {
   return (
-    <div>
-      <h1>Welcome to Screen!</h1>
+    <div style={Styles.outerDiv}>
+      {props.children}
     </div>
   );
 }

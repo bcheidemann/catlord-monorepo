@@ -7,8 +7,7 @@ export default {
 };
 
 export const primary = () => {
-  /* eslint-disable-next-line */
   const props: ScreenProps = {};
 
-  return <Screen />;
+  return <Screen {...props}>Contents</Screen>;
 };
