@@ -1,7 +1,10 @@
 import * as express from 'express';
 import { Message } from '@catlord/api-interfaces';
+import cors from 'cors';
 
 const app = express();
+
+app.use(cors({origin: true}))
 
 const greeting: Message = { message: 'Welcome to api!' };
 

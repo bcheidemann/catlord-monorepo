@@ -7,12 +7,13 @@ import { Theme } from '@catlord/styles';
 
 export interface ScreenProps {
   children?: React.ReactNode;
+  logo: string;
 }
 
 export function Screen(props: ScreenProps) {
   return (
     <>
-      <Menubar title={'CatLord MC'} />
+      <Menubar title={'CatLord MC'} logo={props.logo} />
       <div style={Styles.outerDiv}>
         <Container
           style={Styles.container}
