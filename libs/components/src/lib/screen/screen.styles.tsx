@@ -1,8 +1,8 @@
-import { NewComponentStyle } from '@catlord/styles';
+import { ComponentStyle } from '@catlord/styles';
 import { Theme } from '@catlord/styles';
 import { MenuBarDimensions } from '../menubar/menubar.styles';
 
-export const Styles = NewComponentStyle({
+export const Styles = ComponentStyle({
     outerDiv: {
         position: 'absolute',
         top: 0,

@@ -30,7 +30,7 @@
             ],
             "styles": ["apps/catlord-website/src/styles.scss"],
             "scripts": [],
-            "webpackConfig": "@nrwl/react/plugins/webpack"
+            "webpackConfig": "apps/catlord-website/webpack.config.js"
           },
           "configurations": {
             "production": {

@@ -4,13 +4,14 @@ import { Menubar } from '../menubar/menubar';
 import { Styles } from './screen.styles';
 import { Container } from '../container/container';
 import { Theme } from '@catlord/styles';
+import { observer } from 'mobx-react';
 
 export interface ScreenProps {
   children?: React.ReactNode;
   logo: string;
 }
 
-export function Screen(props: ScreenProps) {
+export const Screen = observer((props: ScreenProps) => {
   return (
     <>
       <Menubar title={'CatLord MC'} logo={props.logo} />
@@ -24,6 +25,6 @@ export function Screen(props: ScreenProps) {
       </div>
     </>
   );
-}
+});
 
 export default Screen;
