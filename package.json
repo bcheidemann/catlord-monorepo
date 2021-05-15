@@ -24,7 +24,8 @@
     "workspace-generator": "nx workspace-generator",
     "dep-graph": "nx dep-graph",
     "help": "nx help",
-    "postinstall": "node ./postinstall/index.js"
+    "postinstall": "node ./postinstall/index.js",
+    "deploy": "sudo nx serve catlord-website --port 80 --host www.catlord.co.uk"
   },
   "private": true,
   "dependencies": {
