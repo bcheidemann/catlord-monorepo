@@ -32,8 +32,8 @@ export const menuData: Array<DropdownElement<NavData>> = [
                 },
             },
             {
-                id: 'catcrafting',
-                text: 'CatCrafting',
+                id: 'chestframes',
+                text: 'ChestFramse',
                 data: {
                     route: Routes.chestframes,
                 },
