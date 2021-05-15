@@ -100,7 +100,7 @@ export class Dropdown<Data = never> extends React.Component<
           opacity: 1,
         });
       this.dimEffectTimeline.to(this.dimEffectRef.current, {
-        opacity: 0.5,
+        opacity: 0.9,
       });
       this.menuItemsTimeline.to('.MenuItem', {
         duration: 0.4,
@@ -220,6 +220,7 @@ export class Dropdown<Data = never> extends React.Component<
     return (
       <this.Element
         {...element}
+        id={`${Math.random()}`}
         text={'< Back'}
         onClick={this.onBack}
       />
