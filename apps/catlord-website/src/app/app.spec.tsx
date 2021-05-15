@@ -1,4 +1,4 @@
-import { cleanup, getByText, render, waitFor } from '@testing-library/react';
+import { cleanup, render } from '@testing-library/react';
 import React from 'react';
 import App from './app';
 
@@ -16,6 +16,7 @@ describe('App', () => {
     });
 
     const { baseElement } = render(<App />);
-    await waitFor(() => getByText(baseElement, 'my message'));
+    
+    expect(baseElement).toMatchSnapshot();
   });
 });

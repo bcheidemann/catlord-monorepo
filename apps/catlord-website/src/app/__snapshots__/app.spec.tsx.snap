@@ -1,0 +1,291 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render successfully 1`] = `
+<body>
+  <div>
+    <div
+      style="height: 67px; background-color: rgb(41, 41, 41); border-width: 3px; border-color: black; border-bottom-style: solid; color: rgb(238, 238, 238); display: flex; justify-content: flex-end;"
+    >
+      <div
+        style="position: absolute; left: 0px; padding: 8px;"
+      >
+        <img
+          alt="Logo"
+          height="52"
+          src="logo.png"
+          width="52"
+        />
+      </div>
+      <div
+        style="left: 70px; position: absolute; display: flex; height: 64px; align-items: center; top: 3px; padding-left: 3px; color: rgb(12, 12, 12); filter: blur(2px);"
+      >
+        <h1>
+          CatLord MC
+        </h1>
+      </div>
+      <div
+        style="left: 70px; position: absolute; display: flex; height: 64px; align-items: center; top: 0px; padding-left: 0px; color: rgb(238, 238, 238);"
+      >
+        <h1>
+          CatLord MC
+        </h1>
+      </div>
+      <div
+        style="height: 100%; display: flex; flex-direction: row; align-items: center;"
+      >
+        <div
+          style="position: relative; margin-right: 10px; height: 40px; width: 80px; border-width: 4px; border-color: #333333; border-radius: 8px; border-style: solid; display: flex; justify-content: center; align-items: center; cursor: default; user-select: none; color: rgb(51, 51, 51); font-weight: bold; font-size: 20px;"
+        >
+          Menu
+        </div>
+      </div>
+    </div>
+    <div
+      style="flex: 1; display: flex; justify-content: center; overflow: hidden; background-color: rgb(5, 5, 5);"
+    >
+      <div
+        style="position: relative; overflow: hidden; width: 100%; height: 100%; background-color: rgb(51, 51, 51); flex: 1; max-width: max(800px, 80%);"
+      >
+        <div
+          style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; overflow: scroll; margin-right: 0px; margin-bottom: 0px;"
+        >
+          <div
+            style="flex: 1; display: flex; padding: 20px 10% 20px 10%; align-items: center; flex-direction: column; text-align: center; margin-bottom: 10%;"
+          >
+            <h2>
+              Welcome to CatLord MC
+            </h2>
+            <p>
+              CatLord MC is a (mostly) vanilla minecraft server with an emphasis on community and trade. We have players with a wide variety of skills and interests who regularly come together to collaborate on amazing projects. We take pride in ensuring that our server is a safe haven from griefers and thiefs - though we very much encourage tasteful pranking!
+            </p>
+            <p>
+              New players looking to join the server should contact one of our admins at ben@heidemann.co.uk or bernhard@heidemann.co.uk.
+            </p>
+            <h2>
+              World Info
+            </h2>
+            <p>
+              The seed of the current CatLord world is 308809959. This seed has a large mooshroom island located at X=-10000 Z=10000. In order to allow construction of shops without fear of mob damage, we elected to set the world spawn to this location.
+            </p>
+            <p>
+              Our world is periodically reset when we feel that we have played out the current world, however, backups are made and are available to download for nostalgias sake. There are currently no plans to reset the world in the near future, though it is likely there will be a hard reset when Mojang releases minecraft 1.17.
+            </p>
+            <h2>
+              Rules and Info
+            </h2>
+            <ol
+              style="text-align: left;"
+            >
+              <li>
+                <p>
+                  <b>
+                    The Town.
+                  </b>
+                   The area designated for our town is divided into chunks.
+                </p>
+                <ul>
+                  <li>
+                    A suitable area will be reserved for the building of the town hall.
+                  </li>
+                  <li>
+                    The remaining land in the town area will be sold and will have to be paid for by named diamonds. Diamonds must be named with the plot reference and the name of the player, e.g. Plot A4, rohedin4.
+                  </li>
+                  <li>
+                    The value of land is 1 block of diamonds per chunk. The diamonds must be deposited in one of the two barrels at the city gates.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <p
+                  style="padding-top: 14px;"
+                >
+                  <b>
+                    The Mayor.
+                  </b>
+                   There shall be a mayor in our world who will be elected by the community and serve a fixed term of three months. Each player is allowed to stand for mayor and there is no limit on the number of times an individual player can be re-elected.
+                </p>
+                <ul>
+                  <li>
+                    The mayor has the right to blacklist other players in case they disrupt the community. Blacklisting may be temporary or permanent.
+                  </li>
+                  <li>
+                    The mayor shall administer the town funds.
+                  </li>
+                  <li>
+                    The mayor supervises the initial sale of land in the town area.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <p
+                  style="padding-top: 14px;"
+                >
+                  <b>
+                    Commerce.
+                  </b>
+                </p>
+                <ul>
+                  <li>
+                    Shops will be restricted to the town area or a commercial area at a later stage in the game.
+                  </li>
+                  <li>
+                    If a player sells a plot of land in the town area they are required to give 10% of the town. This should be deposited in named diamonds as for the initial purchase.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <p
+                  style="padding-top: 14px;"
+                >
+                  <b>
+                    Communal Builds.
+                  </b>
+                </p>
+                <ul>
+                  <li>
+                    Any communal builds in the town area and other areas in the world may be financed from the town funds. Materials supplied for the build should be paid at market value minus a percentage for community builds. Equally services provided by players should be remunerated at market rates, e.g. advertising, decorating or building. The mayor shall determine the market rates at the time.
+                  </li>
+                </ul>
+              </li>
+            </ol>
+            <h2>
+              Datapacks
+            </h2>
+            <ul
+              style="text-align: left;"
+            >
+              <li>
+                <p
+                  style="padding-top: 14px;"
+                >
+                  <b>
+                    Balanced Diet (INACTIVE).
+                  </b>
+                   With this datapack the value of a particular food decreases with each time it is consumed. If the player eats a different food the value of the other food will increase again. Food which has not been eaten before by the player has a very significant effect.
+                </p>
+              </li>
+              <li>
+                <p
+                  style="padding-top: 14px;"
+                >
+                  <b>
+                    Vein Mining.
+                  </b>
+                   Taking out some of the tedium of mining, this datapack means that if you mine an ore block all blocks of the same ore in the same vein (i.e. directly connected but not diagonally) will drop at the same time. Your pickaxe will wear just as much as if you had mined each block separately and any enchantment on your pickaxe will effect each of the blocks.
+                </p>
+              </li>
+              <li>
+                <p
+                  style="padding-top: 14px;"
+                >
+                  <b>
+                    Anvil Mending.
+                  </b>
+                   Each time an anvil is used to repair a tool the cost of this increases. With this datapack the cost of repairs remains the same. This datapack is probably more sensible during the earlier stage of the game and may be removed at a later stage.
+                </p>
+              </li>
+              <li>
+                <p
+                  style="padding-top: 14px;"
+                >
+                  <b>
+                    Sleep.
+                  </b>
+                   This datapack alters the behaviour of vanilla Minecraft so that only one of the players present on the server has to sleep in order for night to move forward. Top tip, carry a bed or two.
+                </p>
+              </li>
+              <li>
+                <p
+                  style="padding-top: 14px;"
+                >
+                  <b>
+                    Mob Heads.
+                  </b>
+                   This datapack causes mobs to drop their heads when killed by a player.
+                </p>
+              </li>
+            </ul>
+            <h2>
+              Mods
+            </h2>
+            <p>
+              We play with the YerAWizard, CatCrafting and ChestFrames mods enabled. These mods were developed by our admins specifically for this server, though they are free to use. These mods are intended to introduce useful and interesting new mechanics without being overpowered or unballancing the game. For more details about these mods, follow these links to: 
+              <a
+                href="/mods/yerawizard"
+              >
+                YerAWizard
+              </a>
+              ,
+               
+              <a
+                href="/mods/catcrafting"
+              >
+                CatCrafting
+              </a>
+               and
+               
+              <a
+                href="/mods/chestframes"
+              >
+                ChestFrames
+              </a>
+              .
+            </p>
+          </div>
+        </div>
+        <div
+          style="position: absolute; height: 6px; transition: opacity 200ms; opacity: 0; display: none; right: 2px; bottom: 2px; left: 2px; border-radius: 3px;"
+        >
+          <div
+            style="position: relative; display: block; height: 100%; border-radius: 6px; background-color: rgb(204, 204, 204);"
+          />
+        </div>
+        <div
+          style="position: absolute; width: 6px; transition: opacity 200ms; opacity: 0; display: none; right: 2px; bottom: 2px; top: 2px; border-radius: 3px;"
+        >
+          <div
+            style="position: relative; display: block; width: 100%; border-radius: 6px; background-color: rgb(204, 204, 204);"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div
+      style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; background-color: black; opacity: 0; pointer-events: none;"
+    />
+    <div
+      style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; display: flex; justify-content: center; align-items: center; pointer-events: none; opacity: 0;"
+    >
+      <div
+        style="display: flex; align-items: center; flex-direction: column; color: rgb(238, 238, 238); user-select: none;"
+      >
+        <span
+          class="MenuItem"
+          style="position: relative; opacity: 0; left: 400px; font-size: 32px; padding: 16px;"
+        >
+          Home
+        </span>
+        <span
+          class="MenuItem"
+          style="position: relative; opacity: 0; left: 400px; font-size: 32px; padding: 16px;"
+        >
+          Mods
+        </span>
+        <span
+          class="MenuItem"
+          style="position: relative; opacity: 0; left: 400px; font-size: 32px; padding: 16px;"
+        >
+          Map
+        </span>
+        <span
+          class="MenuItem"
+          style="position: relative; opacity: 0; left: 400px; font-size: 32px; padding: 16px;"
+        >
+          Login
+        </span>
+      </div>
+    </div>
+  </div>
+</body>
+`;
