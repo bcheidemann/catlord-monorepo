@@ -4,4 +4,4 @@ jobs:
   Test:
     runs-on: ubuntu-latest
     steps:
-      - run: nx test
+      - run: ls -l
