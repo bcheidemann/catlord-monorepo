@@ -8,21 +8,23 @@ export const MenuBarDimensions = {
 
 export const Styles = ComponentStyle({
   outerDiv: {
-    position: 'absolute',
-    top: 0,
-    left: 0,
-    right: 0,
     height: MenuBarDimensions.height - MenuBarDimensions.borderWidth,
     backgroundColor: Theme.background.darken(0.2).hex(),
     borderWidth: MenuBarDimensions.borderWidth,
     borderColor: 'black',
     borderBottomStyle: 'solid',
     color: Theme.text.hex(),
+    display: 'flex',
+    justifyContent: 'flex-end',
+  },
+  logo: {
+    position: 'absolute',
+    left: 0,
+    padding: 8,
   },
   title: {
     left: 70,
     position: 'absolute',
-    width: '100%',
     display: 'flex',
     height: 64,
     alignItems: 'center',
@@ -33,12 +35,18 @@ export const Styles = ComponentStyle({
   titleShadow: {
     left: 70,
     position: 'absolute',
-    width: '100%',
     display: 'flex',
     height: 64,
     alignItems: 'center',
-    top: 5,
-    paddingLeft: 5,
-    color: Theme.textDark.hex(),
+    top: 3,
+    paddingLeft: 3,
+    color: Theme.text.darken(0.95).hex(),
+    filter: 'blur(2px)',
+  },
+  children: {
+    height: '100%',
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
   },
 });

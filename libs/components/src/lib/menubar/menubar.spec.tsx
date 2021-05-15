@@ -5,7 +5,7 @@ import Menubar from './menubar';
 
 describe('Menubar', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<Menubar />);
+    const { baseElement } = render(<Menubar logo={''} title={'Test'} />);
     expect(baseElement).toBeTruthy();
   });
 });

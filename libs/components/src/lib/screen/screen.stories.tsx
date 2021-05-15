@@ -8,9 +8,7 @@ export default {
 };
 
 export const primary = () => {
-  const props: ScreenProps = {
-    logo: '',
-  };
+  const props: ScreenProps = {};
 
   return <GlobalStyles><Screen {...props}>Contents</Screen></GlobalStyles>;
 };

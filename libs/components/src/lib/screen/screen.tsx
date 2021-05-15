@@ -8,22 +8,18 @@ import { observer } from 'mobx-react';
 
 export interface ScreenProps {
   children?: React.ReactNode;
-  logo: string;
 }
 
 export const Screen = observer((props: ScreenProps) => {
   return (
-    <>
-      <Menubar title={'CatLord MC'} logo={props.logo} />
-      <div style={Styles.outerDiv}>
-        <Container
-          style={Styles.container}
-          scrollBarColor={Theme.backgroundLight.hex()}
-        >
-          {props.children}
-        </Container>
-      </div>
-    </>
+    <div style={Styles.outerDiv}>
+      <Container
+        style={Styles.container}
+        scrollBarColor={Theme.backgroundLight.hex()}
+      >
+        {props.children}
+      </Container>
+    </div>
   );
 });
 

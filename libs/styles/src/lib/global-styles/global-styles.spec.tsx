@@ -5,7 +5,7 @@ import GlobalStyles from './global-styles';
 
 describe('GlobalStyles', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<GlobalStyles />);
+    const { baseElement } = render(<GlobalStyles><div /></GlobalStyles>);
     expect(baseElement).toBeTruthy();
   });
 });

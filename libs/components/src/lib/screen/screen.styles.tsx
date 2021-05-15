@@ -1,20 +1,17 @@
 import { ComponentStyle } from '@catlord/styles';
 import { Theme } from '@catlord/styles';
-import { MenuBarDimensions } from '../menubar/menubar.styles';
 
 export const Styles = ComponentStyle({
     outerDiv: {
-        position: 'absolute',
-        top: 0,
-        bottom: 0,
-        left: 0,
-        right: 0,
-        marginTop: MenuBarDimensions.height,
+        flex: 1,
+        display: 'flex',
+        justifyContent: 'center',
         overflow: 'hidden',
+        backgroundColor: Theme.background.darken(0.9).hex(),
     },
     container: {
         backgroundColor: Theme.background.hex(),
-        width: '100%',
-        height: '100%',
+        flex: 1,
+        maxWidth: 'max(800px, 80%)',
     }
 });
