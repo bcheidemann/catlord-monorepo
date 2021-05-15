@@ -37,9 +37,8 @@ export class Dropdown<Data = never> extends React.Component<
   private menuContainer = document.createElement('div');
 
   private activeTween: gsap.TweenVars = {
-    color: Theme.text.hex(),
-    borderColor: Theme.background.lighten(0.5).hex(),
-    fontSize: (Styles.button.fontSize as number) + 1,
+    color: Theme.text.darken(0.5).hex(),
+    borderColor: Theme.background.lighten(0.75).hex(),
   };
   private inactiveTween: gsap.TweenVars = {
     duration: 0.25,
@@ -242,7 +241,7 @@ export class Dropdown<Data = never> extends React.Component<
     const hover = () => {
       menuItemTimeline.to(ref.current, {
         duration: 0.2,
-        scale: 1.2,
+        scale: 1.3,
       });
     };
     const leave = () => {
