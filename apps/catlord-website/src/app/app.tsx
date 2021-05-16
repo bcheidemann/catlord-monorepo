@@ -6,6 +6,7 @@ import Logo from '../assets/logo.png';
 import { menuData, NavData } from './menu/menu.data';
 import { NavBar } from './navbar';
 import { MapRoute } from './routes/map/map';
+import { CatCraftingRoute } from './routes/mods/catcrafting/catcrafting';
 
 export const App = () => {
 
@@ -15,6 +16,8 @@ export const App = () => {
       {/* Routes */}
       <HomeRoute />
       <MapRoute />
+      {/* Mods */}
+      <CatCraftingRoute />
     </Router>
   );
 };

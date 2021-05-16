@@ -5,4 +5,5 @@ export const Theme = {
     backgroundLight: Color('#CCC'),
     text: Color('#EEE'),
     textDark: Color('black'),
+    alert: Color('#EC0'),
 }
